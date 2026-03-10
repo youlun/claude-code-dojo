@@ -20,7 +20,6 @@ domains/                       # Knowledge per Claude Code capability area
   prompting.md                 # CLAUDE.md design and prompt engineering
   configuration.md             # Settings, permissions, MCP servers
   workflows.md                 # Multi-agent orchestration, task decomposition
-references/                    # (removed — fetch on demand from code.claude.com/docs/en/*.md)
 ```
 
 ## Working Here
