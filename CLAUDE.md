@@ -4,7 +4,7 @@ The backing store and knowledge base for the `/dojo` retrospective skill.
 
 ## Purpose
 
-This repo is a staging area for Claude Code improvement. The `/dojo` skill extracts findings from sessions — what worked, what failed, what's missing — and records them here. Findings that recur across sessions graduate into global CLAUDE.md rules, hooks, or skills, closing the feedback loop.
+Session outcomes depend on both sides — the human and the AI. This repo improves both in tandem. The `/dojo` skill debriefs sessions, surfaces what worked and what didn't, and identifies whether the fix belongs on the Claude side (rules, hooks, skills) or the human side (prompting habits, workflow choices, mental models). Findings that recur graduate into actionable changes for whichever side needs them.
 
 The `/dojo` skill source lives in `skills/dojo.md`, symlinked to `~/.claude/commands/dojo.md`.
 
@@ -24,7 +24,7 @@ domains/                       # Created on demand by /dojo when domain-specific
 ## Working Here
 
 - **Before writing any entry:** Read existing entries to avoid duplication. Update existing entries when new evidence refines them.
-- **Entry quality bar:** Every entry must be specific enough that a future Claude instance reading it would change its behavior. No vague advice.
+- **Entry quality bar:** Every entry must be specific enough to change behavior — whether that's a future Claude instance or the user. No vague advice.
 - **Learnings templates:** Follow the entry format defined at the top of each `learnings/` file.
 - **Anti-pattern "Rule" field:** Contains the concrete CLAUDE.md instruction candidate. When a pattern recurs across sessions, graduate the rule to `~/.claude/CLAUDE.md`.
 - **Effective-pattern "Audience" field:** Clarifies whether the entry teaches the user, instructs Claude, or both.
