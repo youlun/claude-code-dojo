@@ -7,6 +7,7 @@ Hypotheses and unresolved ideas under exploration. Entries here are not conclusi
 - **Hypothesis:** What we think might be true
 - **Why it matters:** What changes if this is confirmed or refuted
 - **Evidence so far:** Observations, partial results, or references
+- **Sessions observed:** 1 — YYYY-MM-DD
 - **Next step:** What to try next to resolve this
 -->
 
@@ -14,4 +15,5 @@ Hypotheses and unresolved ideas under exploration. Entries here are not conclusi
 - **Hypothesis:** Auto-memory (`~/.claude/projects/`) combined with global `~/.claude/CLAUDE.md` is enough for personal context without needing a separate local file in the repo.
 - **Why it matters:** If sufficient, it's one less file to manage and aligns with official Anthropic conventions. If not, we need to adopt the import pattern (`@~/.claude/project-notes.md` in CLAUDE.md).
 - **Evidence so far:** Worked in session 2 — MEMORY.md provided project context (purpose, structure, how /dojo works) without issues. One session is not conclusive.
+- **Sessions observed:** 1 — 2026-03-08
 - **Next step:** Continue observing across more sessions. Watch for: context loss, preferences not being picked up, or needing to repeat yourself.

@@ -8,5 +8,6 @@ Proven techniques worth reusing. Each entry should be specific enough to act on.
 - **Context:** When/where this applies
 - **Pattern:** What to do
 - **Why it works:** The mechanism, not just the outcome
+- **Sessions observed:** 1 — YYYY-MM-DD
 - **Rule:** CLAUDE.md instruction candidate if this should become a default. Omit if not applicable.
 -->

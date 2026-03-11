@@ -28,7 +28,7 @@ Review the full conversation history. Identify:
 - **Anti-patterns**: Moments where Claude made mistakes, had to be corrected, misunderstood intent, went in circles, over-engineered, or produced low-quality output. What caused it? Was it a prompting issue, a missing instruction, a Claude tendency?
 - **Effective patterns**: Approaches that worked well — prompting techniques, task decomposition, tool usage, workflows that produced good results efficiently.
 - **Capability gaps**: Situations where a hook, skill, or CLAUDE.md rule could have prevented a problem or streamlined the workflow. Write these as entries in `learnings/open-questions.md` with a hypothesis about what hook, skill, or rule would address them. Once built and validated, move the entry to `effective-patterns.md`.
-- **Recurring friction**: Issues that match or relate to existing entries — evidence that strengthens, weakens, or refines a previous finding.
+- **Recurring friction**: Issues that match or relate to existing entries — evidence that strengthens, weakens, or refines a previous finding. When a finding corroborates an existing entry, increment its `Sessions observed` count and append today's date.
 
 If a finding is uncertain or needs more evidence before becoming an entry, propose it for `learnings/open-questions.md` instead.
 
@@ -112,12 +112,13 @@ Dojo entries explain *why* something happened. But they don't prevent recurrence
 
 For each anti-pattern or effective pattern with a clear preventive action:
 
-1. Check if a rule already exists in `~/.claude/CLAUDE.md` or the current project's `CLAUDE.md` that covers it
-2. If not, propose a concrete CLAUDE.md rule, hook, or skill modification
-3. Show exactly what to add and where
-4. Write only with user approval
+1. Check `Sessions observed` count. Entries observed in 3+ sessions are strong graduation candidates — flag them proactively.
+2. Check if a rule already exists in `~/.claude/CLAUDE.md` or the current project's `CLAUDE.md` that covers it
+3. If not, propose a concrete CLAUDE.md rule, hook, or skill modification
+4. Show exactly what to add and where
+5. Write only with user approval
 
-The "Rule" field in each anti-pattern entry is the candidate for graduation. If the same anti-pattern is observed across multiple sessions, it's a strong signal the rule should be promoted.
+The "Rule" field in each entry is the candidate for graduation. High-impact entries may graduate earlier; the 3-session threshold is a default, not a hard gate.
 
 ## Constraints
 
