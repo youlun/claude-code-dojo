@@ -13,5 +13,5 @@ Hypotheses and unresolved ideas under exploration. Entries here are not conclusi
 ## Is auto-memory sufficient for personal per-project context?
 - **Hypothesis:** Auto-memory (`~/.claude/projects/`) combined with global `~/.claude/CLAUDE.md` is enough for personal context without needing a separate local file in the repo.
 - **Why it matters:** If sufficient, it's one less file to manage and aligns with official Anthropic conventions. If not, we need to adopt the import pattern (`@~/.claude/project-notes.md` in CLAUDE.md).
-- **Evidence so far:** Untested. Chosen as the simpler option to try first.
-- **Next step:** Use this approach across several sessions. Watch for: context loss between sessions, preferences not being picked up, or needing to repeat yourself.
+- **Evidence so far:** Worked in session 2 — MEMORY.md provided project context (purpose, structure, how /dojo works) without issues. One session is not conclusive.
+- **Next step:** Continue observing across more sessions. Watch for: context loss, preferences not being picked up, or needing to repeat yourself.
