@@ -14,12 +14,7 @@ learnings/
   effective-patterns.md        # Proven techniques worth reusing
   anti-patterns.md             # Things that don't work — consult before trying new approaches
   open-questions.md            # Hypotheses under evaluation
-domains/                       # Knowledge per Claude Code capability area
-  skills.md                    # Custom slash commands
-  hooks.md                     # Event-driven shell commands
-  prompting.md                 # CLAUDE.md design and prompt engineering
-  configuration.md             # Settings, permissions, MCP servers
-  workflows.md                 # Multi-agent orchestration, task decomposition
+domains/                       # Created on demand by /dojo when domain-specific content emerges
 ```
 
 ## Working Here
@@ -29,5 +24,5 @@ domains/                       # Knowledge per Claude Code capability area
 - **Learnings templates:** Follow the entry format defined at the top of each `learnings/` file.
 - **Anti-pattern "Rule" field:** Contains the concrete CLAUDE.md instruction candidate. When a pattern recurs across sessions, graduate the rule to `~/.claude/CLAUDE.md`.
 - **Effective-pattern "Audience" field:** Clarifies whether the entry teaches the user, instructs Claude, or both.
-- **Domain files:** No rigid template — let structure emerge from content.
+- **Domain files:** Created on demand by `/dojo`. No rigid template — let structure emerge from content.
 - **References:** Fetch on demand from `https://code.claude.com/docs/en/*.md`. Index at `https://code.claude.com/docs/llms.txt`.
